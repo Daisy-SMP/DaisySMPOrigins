@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "daisy:monkey/climb",
+    "daisy:monkey/quadrupedal",
+    "daisy:monkey/poop",
+    "daisy:monkey/swim",
+    "origins:sprint_jump",
+    "origins:fall_immunity"
+  ],
+  "name": "Monkey",
+  "description": "A species of primate that evolved in the lush, warm climate of the jungle.",
+  "icon": {
+    "item": "minecraft:jungle_leaves"
+  },
+  "impact": 2
+}

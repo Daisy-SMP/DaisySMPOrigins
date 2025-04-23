@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "daisy:size/1_25_blocks",
+    "daisy:general/lessfall",
+    "origins:sprint_jump",
+    "origins:no_shield",
+    "origins:fragile"
+  ],
+  "name": "Ribbit",
+  "description": "A species of small frog people that has different professions.",
+  "icon": {
+    "item": "minecraft:slime_ball"
+  },
+  "impact": 2
+}

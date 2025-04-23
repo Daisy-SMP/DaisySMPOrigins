@@ -1,0 +1,27 @@
+{
+  "name": "Water plants",
+  "description": "With your ability key you can bonemeal blocks around you",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:block_action_at",
+    "block_action": {
+      "type": "origins:area_of_effect",
+      "radius": 4,
+      "shape": "star",
+      "block_action": {
+        "type": "origins:bonemeal",
+        "effects": true
+     }
+    }
+  },
+  "cooldown": 1200,
+  "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 8
+  },
+  "key": {
+      "key": "key.origins.primary_active",
+      "continuous": true
+  }
+} 

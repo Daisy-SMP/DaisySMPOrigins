@@ -1,0 +1,20 @@
+{
+  "name": "Throw potion",
+  "description": "Fire a poison potion.",
+  "type": "origins:fire_projectile",
+  "entity_type": "minecraft:potion",
+  "cooldown": 1800,
+  "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+      "bar_index": 23
+  },
+  "count": 1,
+  "speed": 1.5,
+  "divergence": 1,
+  "tag": "{Item:{id:\"minecraft:splash_potion\",Count:1b,tag:{CustomPotionColor:8051063,CustomPotionEffects:[{Id:19,Amplifier:1b,Duration:900}]}}}",
+  "key": {
+      "key": "key.origins.primary_active",
+      "continuous": true
+  }
+}

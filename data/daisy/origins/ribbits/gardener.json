@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "daisy:ribbit/gardener/bonemeal",
+    "daisy_powers:more_crop_drops"
+  ],
+  "name": "Gardener",
+  "description": "A gardener ribbit.",
+  "icon": {
+    "item": "minecraft:water_bucket"
+  },
+  "impact": 0
+}

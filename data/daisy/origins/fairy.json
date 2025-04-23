@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "daisy:size/1_block",
+    "origins:fragile",
+    "daisy:general/float",
+    "daisy:fairy/regeneration_aura"
+  ],
+  "name": "Fairy",
+  "description": "A species of small flying people that likes to make friends.",
+  "icon": {
+    "item": "minecraft:pink_dye"
+  },
+  "impact": 2
+}

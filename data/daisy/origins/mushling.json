@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "daisy:mushling/moist",
+    "daisy:mushling/waterlungs",
+    "daisy:mushling/inhabitant",
+    "daisy:mushling/falldamage",
+    "daisy:mushling/creepingcap",
+    "daisy:mushling/dehydration",
+    "daisy:mushling/heat",
+    "daisy:health/2_less_hearts"
+  ],
+  "name": "Mushling",
+  "description": "Fungus people they like to be in Dylan_Kennedy_'s feet.",
+  "icon": {
+    "item": "minecraft:red_mushroom"
+  },
+  "impact": 2
+}

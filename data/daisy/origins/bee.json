@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "daisy:size/1_block",
+    "daisy:general/float",
+    "daisy:bee/flower_power",
+    "daisy:bee/stinger",
+    "daisy:bee/better_honey",
+    "daisy_powers:friend_with_the_bees"
+  ],
+  "name": "Bee",
+  "description": "A small bug that is able to fly and is friends with bees.",
+  "icon": {
+    "item": "minecraft:honeycomb"
+  },
+  "impact": 1
+}

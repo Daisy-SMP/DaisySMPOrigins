@@ -1,0 +1,14 @@
+{
+  "name": "Strudy",
+  "description": "You take less damage.",
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "fire",
+    "inverted": true
+  },
+  "modifier": {
+    "operation": "multiply_total_multiplicative",
+    "value": 0.25
+  }
+}

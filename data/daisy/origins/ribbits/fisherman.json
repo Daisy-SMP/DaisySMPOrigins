@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "daisy_powers:better_fishing_rod"
+  ],
+  "name": "Fisherman",
+  "description": "A fisherman ribbit.",
+  "icon": {
+    "item": "minecraft:fishing_rod"
+  },
+  "impact": 0
+}

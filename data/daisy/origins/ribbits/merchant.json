@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "daisy:ribbit/merchant/loved_by_villagers",
+    "daisy:ribbit/merchant/backpack"
+  ],
+  "name": "Merchant",
+  "description": "A merchant ribbit.",
+  "icon": {
+    "item": "minecraft:chest"
+  },
+  "impact": 0
+}

@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "daisy:size/1_5_blocks",
+    "daisy:health/2_less_hearts",
+    "daisy:fox/better_berries",
+    "daisy:fox/sly",
+    "daisy:fox/timid_creature",
+    "daisy_powers:careful_gatherer",
+    "daisy_powers:item_collector"
+  ],
+  "name": "Fox",
+  "description": "Sly and cunning, foxes are timid animals who enjoy eating berries, and stealing items.",
+  "icon": {
+    "item": "minecraft:sweet_berries"
+  },
+  "impact": 1
+}

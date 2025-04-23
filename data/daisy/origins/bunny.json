@@ -1,0 +1,15 @@
+{
+  "powers": [
+		"origins:fragile",
+		"daisy:bunny/bunny_necessities",
+		"origins:sprint_jump",
+		"daisy:bunny/carrot_craver",
+		"origins:fall_immunity"
+  ],
+  "name": "Bunny",
+  "description": "Hopping around like a happy bunny!",
+  "icon": {
+    "item": "minecraft:carrot"
+  },
+  "impact": 1
+}

@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "daisy:ribbit/witch/poison_potion",
+    "daisy_powers:longer_potions",
+    "daisy:ribbit/witch/poison_immunity"
+  ],
+  "name": "Witch",
+  "description": "A magic ribbit.",
+  "icon": {
+    "item": "minecraft:splash_potion"
+  },
+  "impact": 0
+}

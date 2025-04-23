@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "origins": [
+    "daisy:bee",
+    "daisy:bunny",
+    "daisy:fairy",
+    "daisy:fox",
+    "daisy:monkey",
+    "daisy:mushling",
+    "daisy:ribbit",
+    "daisy:treeborn",
+    "daisy:wyrm"
+  ]
+}

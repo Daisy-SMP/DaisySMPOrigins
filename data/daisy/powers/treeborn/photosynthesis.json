@@ -1,0 +1,14 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Photosynthesis",
+  "description": "Due to your evolution of being a tree you have adapted to your food source being the sun.",
+  "interval": 140,
+  "condition": {
+    "type": "origins:exposed_to_sun"
+  },
+  "entity_action": {
+    "type": "origins:feed",
+    "food": 2,
+    "saturation": 4
+  }
+} 

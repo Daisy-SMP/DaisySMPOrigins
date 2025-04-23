@@ -1,0 +1,11 @@
+{
+  "name": "Backpack",
+  "description": "You have a backpack where you can store your goodies!.",
+  "type": "origins:inventory",
+  "title": "Ribbit backpack",
+  "drop_on_death": false,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  }
+}

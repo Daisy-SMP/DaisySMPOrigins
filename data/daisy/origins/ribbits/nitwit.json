@@ -1,0 +1,9 @@
+{
+  "powers": [],
+  "name": "Nitwit",
+  "description": "You aren't good at anything.",
+  "icon": {
+    "item": "minecraft:green_wool"
+  },
+  "impact": 0
+}

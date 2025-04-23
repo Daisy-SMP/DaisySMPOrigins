@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "daisy:health/5_more_hearts",
+    "daisy:size/3_blocks",
+    "daisy:general/flammable",
+    "daisy:general/ride",
+		"daisy:general/no_sleep",
+    "daisy:treeborn/sturdy",
+    "daisy:treeborn/photosynthesis",
+    "daisy:treeborn/eat_honey"
+  ],
+  "name": "Treeborn",
+  "description": "A species of plant people that obtain their nutrients from the sun very slowly.",
+  "icon": {
+    "item": "minecraft:spruce_sapling"
+  },
+  "impact": 3
+}
