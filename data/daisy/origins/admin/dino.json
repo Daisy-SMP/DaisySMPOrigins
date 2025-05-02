@@ -4,6 +4,7 @@
     "daisy:health/5_more_hearts",
     "daisy:general/high_knockback",
     "daisy:dino/roar",
+    "daisy:dino/speed_boost",
 		"origins:no_shield",
 		"daisy:general/lumbering_strength",
 		"daisy:general/extra_arrow_damage"

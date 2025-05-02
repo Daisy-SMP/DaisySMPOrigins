@@ -1,0 +1,64 @@
+{
+  "name": "Speed burst",
+  "description": "Pressing your primary ability you get a speed burst.",
+  "type": "origins:multiple",
+  "resource":{
+    "type":"origins:resource",
+    "max":300,
+    "min":0,
+    "start_value":300,
+    "hud_render":{
+      "sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+      "bar_index":3
+    }
+  },
+  "toggle": {
+    "type": "origins:active_self",
+    "key": {
+      "key": "key.origins.primary_active",
+      "continuous": false
+    },
+    "entity_action": {
+      "type": "origins:set_resource",
+      "resource": "*:*_resource",
+      "value": 0
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_resource",
+      "comparison": ">=",
+      "compare_to": 300
+    }
+  },
+  "timer":{
+    "type":"origins:action_over_time",
+    "interval":1,
+    "entity_action":{
+      "type":"origins:change_resource",
+      "resource":"*:*_resource",
+      "change":1,
+      "condition":{
+        "type": "origins:resource",
+        "resource": "*:*_resource",
+        "comparison": "<",
+        "compare_to": 300
+      }
+    }
+  },
+  "modifier": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "name": "Speed burst",
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_total",
+      "value": 0.4
+    },
+    "tick_rate": 20,
+    "condition":{
+      "type": "origins:resource",
+      "resource": "*:*_resource",
+      "comparison": "<",
+      "compare_to": 150
+    }
+  }
+} 

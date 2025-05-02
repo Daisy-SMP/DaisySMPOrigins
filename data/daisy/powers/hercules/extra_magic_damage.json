@@ -3,12 +3,12 @@
 	"description": "You are weak to magic damage.",
 	"type": "origins:modify_damage_taken",
 	"damage_condition": {
-    "type": "origins:type",
-    "damage_type": "minecraft:magic"
+    "type": "origins:in_tag",
+    "tag": "witch_resistant_to"
   },
 	"modifier": {
 		"name": "Weak to magic",
-		"operation": "multiply_total_multiplicative",
+		"operation": "multiply_total",
 		"value": 0.3
 	}
 }
