@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "daisy:size/4_blocks",
+    "daisy:health/5_more_hearts",
+    "daisy:dino/high_knockback",
+    "daisy:dino/roar",
+		"origins:no_shield",
+		"daisy:general/lumbering_strength",
+		"daisy:general/extra_arrow_damage"
+  ],
+  "name": "Dinosaur",
+  "description": "A big reptile that is strong and has high knockback.",
+  "icon": {
+    "item": "minecraft:honeycomb"
+  },
+  "impact": 1,
+  "unchoosable": true
+}

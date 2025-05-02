@@ -11,7 +11,7 @@
 		"origins:no_shield",
 		"daisy:general/no_sleep",
 		"daisy:dragon/water_weakness",
-		"daisy:dragon/projectile"
+		"daisy:general/extra_arrow_damage"
 	],
 	"name": "Wyrm",
 	"description": "Wyrm are big reptilian creatures.",
