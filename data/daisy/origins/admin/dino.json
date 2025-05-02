@@ -2,7 +2,7 @@
   "powers": [
     "daisy:size/4_blocks",
     "daisy:health/5_more_hearts",
-    "daisy:dino/high_knockback",
+    "daisy:general/high_knockback",
     "daisy:dino/roar",
 		"origins:no_shield",
 		"daisy:general/lumbering_strength",

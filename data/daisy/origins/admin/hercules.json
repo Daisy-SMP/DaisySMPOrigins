@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "daisy:general/high_knockback",
+		"daisy:general/lumbering_strength",
+		"daisy:hercules/speed_boost",
+		"daisy:health/3_more_hearts",
+		"daisy:hercules/extra_fire_damage",
+		"daisy:hercules/extra_magic_damage"
+  ],
+  "name": "Hercules",
+  "description": "A strong greek yogurt demi-god.",
+  "icon": {
+    "item": "minecraft:iron_sword"
+  },
+  "impact": 1,
+  "unchoosable": true
+}

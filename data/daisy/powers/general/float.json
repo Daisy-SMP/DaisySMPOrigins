@@ -1,4 +1,6 @@
 {
+  "name":"Float",
+  "description":"Pressing the correspondent key will make you float up",
   "type":"origins:multiple",
   "resource":{
     "type":"origins:resource",
@@ -92,7 +94,5 @@
       "type":"origins:execute_command",
       "command":"resource set @s slore_smp:ghast/float_resource 300"
     }
-  },
-  "name":"Float",
-  "description":"Pressing the correspondent key will make you float up"
+  }
 }

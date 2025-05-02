@@ -1,0 +1,14 @@
+{
+	"name": "Weak to magic",
+	"description": "You are weak to magic damage.",
+	"type": "origins:modify_damage_taken",
+	"damage_condition": {
+    "type": "origins:type",
+    "damage_type": "minecraft:magic"
+  },
+	"modifier": {
+		"name": "Weak to magic",
+		"operation": "multiply_total_multiplicative",
+		"value": 0.3
+	}
+}
