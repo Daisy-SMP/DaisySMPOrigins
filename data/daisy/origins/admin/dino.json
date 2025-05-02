@@ -11,7 +11,7 @@
   "name": "Dinosaur",
   "description": "A big reptile that is strong and has high knockback.",
   "icon": {
-    "item": "minecraft:honeycomb"
+    "item": "minecraft:cooked_beef"
   },
   "impact": 1,
   "unchoosable": true
