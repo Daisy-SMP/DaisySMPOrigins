@@ -1,0 +1,17 @@
+{
+  "powers": [
+		"daisy:ladybrine/creative_flight",
+		"daisy:ladybrine/invincible",
+		"origins:phantomize",
+		"origins:phasing",
+		"origins:invisibility",
+		"origins:phantomize_overlay"
+  ],
+  "name": "Ladybrine",
+  "description": "Hi ^_^",
+  "icon": {
+    "item": "minecraft:nether_star"
+  },
+  "impact": 3,
+  "unchoosable": true
+}

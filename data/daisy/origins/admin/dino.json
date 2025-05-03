@@ -3,6 +3,7 @@
     "daisy:size/4_blocks",
     "daisy:health/5_more_hearts",
     "daisy:general/high_knockback",
+    "daisy:general/lessfall",
     "daisy:dino/roar",
     "daisy:dino/speed_boost",
 		"origins:no_shield",
@@ -14,6 +15,6 @@
   "icon": {
     "item": "minecraft:cooked_beef"
   },
-  "impact": 1,
+  "impact": 3,
   "unchoosable": true
 }
