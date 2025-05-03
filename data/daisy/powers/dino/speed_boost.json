@@ -4,12 +4,12 @@
   "type": "origins:multiple",
   "resource":{
     "type":"origins:resource",
-    "max":300,
+    "max":400,
     "min":0,
-    "start_value":300,
+    "start_value":400,
     "hud_render":{
       "sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
-      "bar_index":3
+      "bar_index": 1
     }
   },
   "toggle": {
@@ -27,7 +27,7 @@
       "type": "origins:resource",
       "resource": "*:*_resource",
       "comparison": ">=",
-      "compare_to": 300
+      "compare_to": 400
     }
   },
   "timer":{
@@ -41,7 +41,7 @@
         "type": "origins:resource",
         "resource": "*:*_resource",
         "comparison": "<",
-        "compare_to": 300
+        "compare_to": 400
       }
     }
   },
@@ -58,7 +58,7 @@
       "type": "origins:resource",
       "resource": "*:*_resource",
       "comparison": "<",
-      "compare_to": 150
+      "compare_to": 200
     }
   }
 } 
