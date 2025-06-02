@@ -2,13 +2,13 @@
   "name": "Speed burst",
   "description": "Pressing your primary ability you get a speed burst.",
   "type": "origins:multiple",
-  "resource":{
-    "type":"origins:resource",
-    "max":400,
-    "min":0,
-    "start_value":400,
-    "hud_render":{
-      "sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+  "resource": {
+    "type": "origins:resource",
+    "max": 400,
+    "min": 0,
+    "start_value": 400,
+    "hud_render": {
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
       "bar_index": 1
     }
   },
@@ -30,14 +30,14 @@
       "compare_to": 400
     }
   },
-  "timer":{
-    "type":"origins:action_over_time",
-    "interval":1,
-    "entity_action":{
-      "type":"origins:change_resource",
-      "resource":"*:*_resource",
-      "change":1,
-      "condition":{
+  "timer": {
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_resource",
+      "change": 1,
+      "condition": {
         "type": "origins:resource",
         "resource": "*:*_resource",
         "comparison": "<",
@@ -54,11 +54,11 @@
       "value": 0.4
     },
     "tick_rate": 20,
-    "condition":{
+    "condition": {
       "type": "origins:resource",
       "resource": "*:*_resource",
       "comparison": "<",
       "compare_to": 200
     }
   }
-} 
+}

@@ -4,7 +4,7 @@
     "daisy:size/3_blocks",
     "daisy:general/flammable",
     "daisy:general/ride",
-		"daisy:general/no_sleep",
+    "daisy:general/no_sleep",
     "daisy:treeborn/sturdy",
     "daisy:treeborn/photosynthesis",
     "daisy:treeborn/eat_honey"

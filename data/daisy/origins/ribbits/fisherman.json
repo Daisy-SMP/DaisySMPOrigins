@@ -1,7 +1,5 @@
 {
-  "powers": [
-    "daisy_powers:better_fishing_rod"
-  ],
+  "powers": ["daisy_powers:better_fishing_rod"],
   "name": "Fisherman",
   "description": "A fisherman ribbit.",
   "icon": {

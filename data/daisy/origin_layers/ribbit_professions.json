@@ -1,26 +1,26 @@
 {
   "origins": [
-      {
-          "condition": {
-            "type": "origins:origin",
-            "origin": "daisy:ribbit",
-            "layer": "origins:origin"
-          },
-          "origins": [
-            "daisy:ribbits/fisherman",
-            "daisy:ribbits/gardener",
-            "daisy:ribbits/merchant",
-            "daisy:ribbits/witch",
-            "daisy:ribbits/nitwit"
-          ]
-      }
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "daisy:ribbit",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "daisy:ribbits/fisherman",
+        "daisy:ribbits/gardener",
+        "daisy:ribbits/merchant",
+        "daisy:ribbits/witch",
+        "daisy:ribbits/nitwit"
+      ]
+    }
   ],
   "comment": "Ribbit professions",
   "order": 1,
   "name": "Ribbit professions",
   "gui_title": {
-      "choose_origin": "Select your profession.",
-      "view_origin": "This is your profession."
+    "choose_origin": "Select your profession.",
+    "view_origin": "This is your profession."
   },
   "missing_name": "You are unenployed",
   "missing_description": "You are unenployed."

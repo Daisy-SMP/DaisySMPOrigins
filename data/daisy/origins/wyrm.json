@@ -1,22 +1,12 @@
 {
-	"powers": [
-		"origins:launch_into_air",
-		"daisy:size/4_blocks",
-		"daisy:health/3_more_hearts",
-		"origins:hotblooded",
-		"origins:natural_armor",
-		"origins:more_exhaustion",
-		"daisy:general/lumbering_strength",
-		"daisy:general/ride",
-		"origins:no_shield",
-		"daisy:general/no_sleep",
-		"daisy:dragon/water_weakness",
-		"daisy:general/extra_arrow_damage"
-	],
-	"name": "Wyrm",
-	"description": "Wyrm are big reptilian creatures.",
+  "powers": [
+    "daisy:dragon/migration"
+  ],
+  "name": "Dragon",
+  "description": "Dragon are big winged reptilian creatures.",
   "icon": {
     "item": "minecraft:lava_bucket"
   },
-	"impact": 3
+  "impact": 3,
+  "unchoosable": true
 }

@@ -4,6 +4,6 @@
   "name": "Creeping Cap",
   "description": "When creeping about, you become slightly transparent.",
   "condition": {
-      "type": "origins:sneaking"
+    "type": "origins:sneaking"
   }
 }

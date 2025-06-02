@@ -1,11 +1,11 @@
 {
   "powers": [
-		"daisy:ladybrine/creative_flight",
-		"daisy:ladybrine/invincible",
-		"origins:phantomize",
-		"origins:phasing",
-		"origins:invisibility",
-		"origins:phantomize_overlay"
+    "daisy:ladybrine/creative_flight",
+    "daisy:ladybrine/invincible",
+    "origins:phantomize",
+    "origins:phasing",
+    "origins:invisibility",
+    "origins:phantomize_overlay"
   ],
   "name": "Ladybrine",
   "description": "Hi ^_^",

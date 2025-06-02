@@ -1,8 +1,5 @@
 {
-  "powers": [
-    "daisy:ribbit/gardener/bonemeal",
-    "daisy_powers:more_crop_drops"
-  ],
+  "powers": ["daisy:ribbit/gardener/bonemeal", "daisy_powers:more_crop_drops"],
   "name": "Gardener",
   "description": "A gardener ribbit.",
   "icon": {

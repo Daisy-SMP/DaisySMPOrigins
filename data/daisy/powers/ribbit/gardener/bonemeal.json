@@ -11,17 +11,17 @@
       "block_action": {
         "type": "origins:bonemeal",
         "effects": true
-     }
+      }
     }
   },
   "cooldown": 1200,
   "hud_render": {
-      "should_render": true,
-      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
-      "bar_index": 8
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+    "bar_index": 8
   },
   "key": {
-      "key": "key.origins.primary_active",
-      "continuous": true
+    "key": "key.origins.primary_active",
+    "continuous": true
   }
-} 
+}

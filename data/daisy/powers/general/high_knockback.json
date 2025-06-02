@@ -3,7 +3,7 @@
   "description": "With your strong arms you deal more knockback to entities.",
   "type": "origins:action_on_hit",
   "bientity_action": {
-      "type": "origins:add_velocity",
-      "z": 1
+    "type": "origins:add_velocity",
+    "z": 1
   }
 }

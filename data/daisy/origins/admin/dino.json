@@ -6,9 +6,9 @@
     "daisy:general/lessfall",
     "daisy:dino/roar",
     "daisy:dino/speed_boost",
-		"origins:no_shield",
-		"daisy:general/lumbering_strength",
-		"daisy:general/extra_arrow_damage"
+    "origins:no_shield",
+    "daisy:general/lumbering_strength",
+    "daisy:general/extra_arrow_damage"
   ],
   "name": "Dinosaur",
   "description": "A big reptile that is strong and has high knockback.",

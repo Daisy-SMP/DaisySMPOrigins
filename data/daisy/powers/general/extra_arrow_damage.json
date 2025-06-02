@@ -1,14 +1,14 @@
 {
-	"name": "Being hunted",
-	"description": "Being hunted by humans you take more damage from arrows.",
-	"type": "origins:modify_damage_taken",
-	"damage_condition": {
-		"type": "origins:projectile",
-		"projectiles": "minecraft:arrow"
-	},
-	"modifier": {
-		"name": "Weak to projectiles",
-		"operation": "addition",
-		"value": 3.0
-	}
+  "name": "Being hunted",
+  "description": "Being hunted by humans you take more damage from arrows.",
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:projectile",
+    "projectiles": "minecraft:arrow"
+  },
+  "modifier": {
+    "name": "Weak to projectiles",
+    "operation": "addition",
+    "value": 3.0
+  }
 }
