@@ -1,7 +1,5 @@
 {
-  "powers": [
-    "daisy:dragon/migration"
-  ],
+  "powers": ["daisy:dragon/migration"],
   "name": "Dragon",
   "description": "Dragon are big winged reptilian creatures.",
   "icon": {
