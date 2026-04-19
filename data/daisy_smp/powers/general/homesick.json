@@ -1,0 +1,117 @@
+{
+    "type": "origins:multiple",
+    "undead": {
+        "type": "origins:entity_group",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:dimension",
+                    "dimension": "minecraft:the_nether",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_timer",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "group": "undead"
+    },
+    "fire_immunity": {
+        "type": "origins:fire_immunity",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:dimension",
+                    "dimension": "minecraft:the_nether",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_timer",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        }
+    },
+    "weakness": {
+        "type": "origins:stacking_status_effect",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:dimension",
+                    "dimension": "minecraft:the_nether",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_timer",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 30,
+        "effect": {
+            "effect": "minecraft:weakness",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    },
+    "shaking": {
+        "type": "origins:shaking",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:dimension",
+                    "dimension": "minecraft:the_nether",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_timer",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        }
+    },
+    "timer": {
+        "type": "origins:cooldown",
+        "cooldown": 3600,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 15,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:*_timer",
+                "comparison": ">",
+                "compare_to": 0
+            },
+            "inverted": true
+        }
+    },
+    "set_timer": {
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:trigger_cooldown",
+            "power": "*:*_timer"
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "c:foods/golden"
+            }
+        }
+    }
+}

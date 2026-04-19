@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "daisy_smp:breezeborn/throw_wind_charge",
+        "origins:fall_immunity",
+        "daisy_smp:breezeborn/more_like_air",
+        "origins:sprint_jump",
+        "daisy_smp:general/no_sleep",
+        "daisy_smp:general/vulnerable",
+        "daisy_smp:health/2_less_hearts",
+        "daisy_smp:breezeborn/wind_particles"
+    ],
+    "icon": "minecraft:wind_charge",
+    "impact": 2
+}

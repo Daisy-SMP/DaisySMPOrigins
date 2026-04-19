@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "daisy_smp:health/2_less_hearts",
+        "daisy_smp:size/4_block",
+        "daisy_smp:general/float",
+        "daisy_smp:happy_ghast/thirst"
+    ],
+    "icon": "minecraft:happy_ghast_spawn_egg",
+    "impact": 3
+}

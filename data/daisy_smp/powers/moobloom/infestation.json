@@ -1,0 +1,50 @@
+{
+    "type": "origins:active_self",
+    "condition": {
+        "type": "origins:food_level",
+        "comparison": ">",
+        "compare_to": 0
+    },
+    "entity_action": {
+        "type": "daisy_smp_tweaks:block_raycast_action",
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:in_tag",
+                    "tag": "minecraft:dirt"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:mycelium",
+                    "inverted": true
+                }
+            ]
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:mycelium"
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:item.bottle.empty"
+                },
+                {
+                    "type": "origins:exhaust",
+                    "amount": 10
+                },
+                {
+                    "type": "origins:swing_hand"
+                }
+            ]
+        }
+    },
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    },
+    "cooldown": 5
+}

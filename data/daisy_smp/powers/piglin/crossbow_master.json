@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_projectile_damage",
+    "damage_condition": {
+        "type": "daisy_smp_tweaks:crossbow_projectile"
+    },
+    "modifier": {
+        "operation": "multiply_total_multiplicative",
+        "value": 0.75
+    }
+}

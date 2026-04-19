@@ -1,0 +1,29 @@
+{
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "name": "half height daisy",
+            "attribute": "minecraft:scale",
+            "value": -0.5,
+            "operation": "multiply_total"
+        },
+        {
+            "name": "smaller step height daisy",
+            "attribute": "minecraft:step_height",
+            "value": -0.5,
+            "operation": "multiply_total"
+        },
+        {
+            "name": "less block interaction range daisy",
+            "attribute": "minecraft:block_interaction_range",
+            "value": -0.1465,
+            "operation": "multiply_total"
+        },
+        {
+            "name": "less entity interaction range daisy",
+            "attribute": "minecraft:entity_interaction_range",
+            "value": -0.1465,
+            "operation": "multiply_total"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "type": "origins:multiple",
+    "damage_taken": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "value": 1,
+            "operation": "add_base_early"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:exposed_to_sun"
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": ">",
+                    "compare_to": 0,
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "attributes": {
+        "type": "origins:conditioned_attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:attack_damage",
+                "operation": "multiply_total",
+                "value": -0.2,
+                "name": "Frog dried up weak"
+            },
+            {
+                "attribute": "minecraft:attack_speed",
+                "operation": "multiply_total",
+                "value": -0.2,
+                "name": "Frog dried up attack speed"
+            },
+            {
+                "attribute": "minecraft:block_break_speed",
+                "operation": "multiply_total",
+                "value": -0.2,
+                "name": "Frog dried up block break speed"
+            },
+            {
+                "attribute": "minecraft:burning_time",
+                "operation": "multiply_total",
+                "value": 0.5,
+                "name": "Frog dried up burn time"
+            }
+        ],
+        "tick_rate": 40,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:exposed_to_sun"
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": ">",
+                    "compare_to": 0,
+                    "inverted": true
+                }
+            ]
+        }
+    }
+}

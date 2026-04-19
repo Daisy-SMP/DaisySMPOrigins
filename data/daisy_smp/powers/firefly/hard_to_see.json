@@ -1,0 +1,9 @@
+{
+    "type": "apoli_legacy:modify_behavior",
+    "behavior_type": "neutral",
+    "bientity_condition": {
+        "type": "origins:distance",
+        "comparison": "<=",
+        "compare_to": 6
+    }
+}

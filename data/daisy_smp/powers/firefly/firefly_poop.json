@@ -1,0 +1,18 @@
+{
+    "type": "origins:recipe",
+    "recipe": {
+        "id": "daisy_smp:firefly_poop",
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "item": "minecraft:glowstone"
+            },
+            {
+                "item": "minecraft:glowstone"
+            }
+        ],
+        "result": {
+            "item": "daisy_smp_tweaks:firefly_poop"
+        }
+    }
+}

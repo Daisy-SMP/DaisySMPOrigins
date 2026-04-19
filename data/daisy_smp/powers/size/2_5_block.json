@@ -1,0 +1,41 @@
+{
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "name": "x1.275 height daisy",
+            "attribute": "minecraft:scale",
+            "value": 0.275,
+            "operation": "multiply_total"
+        },
+        {
+            "name": "bigger step height daisy",
+            "attribute": "minecraft:step_height",
+            "value": 0.275,
+            "operation": "multiply_total"
+        },
+        {
+            "name": "more block interaction range daisy",
+            "attribute": "minecraft:block_interaction_range",
+            "value": 0.129,
+            "operation": "multiply_total"
+        },
+        {
+            "name": "more entity interaction range daisy",
+            "attribute": "minecraft:entity_interaction_range",
+            "value": 0.129,
+            "operation": "multiply_total"
+        },
+        {
+            "name": "less fall daisy",
+            "attribute": "minecraft:safe_fall_distance",
+            "value": 0.275,
+            "operation": "multiply_total"
+        },
+        {
+            "name": "less fall daisy",
+            "attribute": "minecraft:fall_damage_multiplier",
+            "value": -0.2156863,
+            "operation": "multiply_total"
+        }
+    ]
+}

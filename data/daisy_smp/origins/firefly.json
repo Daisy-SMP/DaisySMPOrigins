@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "daisy_smp:size/1_block",
+        "daisy_smp:firefly/firefly_poop",
+        "daisy_smp:general/float",
+        "daisy_smp:health/4_less_hearts",
+        "daisy_smp:firefly/hard_to_see"
+    ],
+    "icon": "daisy_smp_tweaks:firefly_poop",
+    "impact": 2
+}

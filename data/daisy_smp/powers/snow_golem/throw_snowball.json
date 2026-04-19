@@ -1,0 +1,12 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:snowball",
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    },
+    "cooldown": 20,
+    "hud_render": {
+        "should_render": false
+    }
+}

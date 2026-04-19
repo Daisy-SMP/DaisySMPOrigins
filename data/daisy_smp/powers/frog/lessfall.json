@@ -1,0 +1,17 @@
+{
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "name": "less fall daisy",
+            "attribute": "minecraft:safe_fall_distance",
+            "value": 1,
+            "operation": "multiply_total"
+        },
+        {
+            "name": "less fall daisy",
+            "attribute": "minecraft:fall_damage_multiplier",
+            "value": -0.5,
+            "operation": "multiply_total"
+        }
+    ]
+}

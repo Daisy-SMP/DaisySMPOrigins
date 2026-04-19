@@ -1,0 +1,12 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:in_tag",
+        "tag": "minecraft:is_fire"
+    },
+    "modifier": {
+        "name": "Weak to fire",
+        "operation": "multiply_base_multiplicative",
+        "value": 1
+    }
+}

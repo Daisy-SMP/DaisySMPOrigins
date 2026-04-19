@@ -1,0 +1,33 @@
+{
+    "type": "origins:multiple",
+    "shader": {
+        "type": "origins:shader",
+        "shader": "daisy_smp_tweaks:black_and_white",
+        "condition": {
+            "type": "daisy_smp_tweaks:equipped_trinket",
+            "trinket_slot": {
+                "group": "head",
+                "slot": "face"
+            },
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "daisy_smp_tweaks:color_blindness_correction_glasses"
+                }
+            },
+            "inverted": true
+        }
+    },
+    "effect": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 30,
+        "effect": {
+            "effect": "daisy_smp_tweaks:warden_sight",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        }
+    }
+}

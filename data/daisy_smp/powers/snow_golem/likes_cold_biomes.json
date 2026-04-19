@@ -1,0 +1,19 @@
+{
+    "type": "origins:stacking_status_effect",
+    "tick_rate": 40,
+    "min_stacks": -20,
+    "max_stacks": 2,
+    "duration_per_stack": 100,
+    "effect": {
+        "effect": "minecraft:regeneration",
+        "amplifier": 0,
+        "show_particles": false
+    },
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:precipitation",
+            "precipitation": "snow"
+        }
+    }
+}

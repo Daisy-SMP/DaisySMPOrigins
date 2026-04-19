@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "daisy_smp:moobloom/better_mushroom_stew",
+        "daisy_smp:moobloom/eat_flowers",
+        "daisy_smp:moobloom/infestation",
+        "daisy_smp:moobloom/red_green_color_blindness",
+        "daisy_smp:moobloom/shed_mushrooms",
+        "daisy_smp:general/no_sleep",
+        "daisy_smp:general/vegan"
+    ],
+    "icon": "minecraft:red_mushroom",
+    "impact": 2
+}

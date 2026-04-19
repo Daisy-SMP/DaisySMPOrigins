@@ -1,0 +1,13 @@
+{
+    "powers": [
+		"origins:water_vulnerability",
+		"daisy_smp:snow_golem/extra_fire_damage",
+		"daisy_smp:snow_golem/dislikes_hot_biomes",
+		"daisy_smp:snow_golem/likes_cold_biomes",
+		"daisy_smp:snow_golem/throw_snowball",
+		"daisy_smp:snow_golem/eat_snow",
+        "daisy_smp_tweaks:cant_fall_powdered_snow"
+    ],
+    "icon": "minecraft:snowball",
+    "impact": 3
+}

@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "origins": [
+        "daisy_smp:moobloom",
+        "daisy_smp:frog",
+        "daisy_smp:copper_golem",
+        "daisy_smp:snow_golem",
+        "daisy_smp:happy_ghast",
+        "daisy_smp:breezeborn",
+        "daisy_smp:piglin",
+        "daisy_smp:wither_skeleton",
+        "daisy_smp:warden",
+        "daisy_smp:firefly"
+    ]
+}

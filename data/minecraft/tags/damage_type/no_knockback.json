@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "daisy_smp:overheat",
+        "daisy_smp:thirst"
+    ]
+}

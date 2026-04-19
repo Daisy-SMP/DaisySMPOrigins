@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "daisy_smp:size/2_5_block",
+        "origins:nether_spawn",
+        "daisy_smp:general/homesick",
+        "origins:water_vulnerability",
+        "origins:fire_immunity"
+    ],
+    "icon": "minecraft:wither_skeleton_skull",
+    "impact": 3
+}

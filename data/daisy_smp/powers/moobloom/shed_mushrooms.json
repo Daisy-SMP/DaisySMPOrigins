@@ -1,0 +1,27 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 6000,
+    "entity_action": {
+        "type": "origins:choice",
+        "actions": [
+            {
+                "element": {
+                    "type": "origins:give",
+                    "stack": {
+                        "item": "minecraft:red_mushroom"
+                    }
+                },
+                "weight": 1
+            },
+            {
+                "element": {
+                    "type": "origins:give",
+                    "stack": {
+                        "item": "minecraft:brown_mushroom"
+                    }
+                },
+                "weight": 1
+            }
+        ]
+    }
+}

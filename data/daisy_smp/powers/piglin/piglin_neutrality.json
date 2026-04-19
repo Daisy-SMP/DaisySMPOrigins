@@ -1,0 +1,11 @@
+{
+    "type": "apoli_legacy:modify_behavior",
+    "behavior_type": "passive",
+    "bientity_condition": {
+        "type": "apoli:target_condition",
+        "condition": {
+            "type": "apoli:entity_type",
+            "entity_type": "minecraft:piglin"
+        }
+    }
+}

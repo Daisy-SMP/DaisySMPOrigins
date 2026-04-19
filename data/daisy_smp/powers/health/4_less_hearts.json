@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+    "modifier": {
+      "id": "*:*",
+      "attribute": "minecraft:max_health",
+      "value": -8.0,
+      "operation": "add_value"
+    }
+}

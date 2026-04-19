@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "daisy_smp:piglin/golden_stuff_boost",
+        "daisy_smp:piglin/crossbow_master",
+        "daisy_smp:piglin/piglin_neutrality",
+        "origins:nether_spawn",
+        "daisy_smp:general/homesick",
+        "daisy_smp:piglin/golden_gluttony",
+        "daisy_smp:health/2_less_hearts",
+        "daisy_smp:piglin/soul_spooked"
+    ],
+    "icon": "minecraft:golden_sword",
+    "order": 1,
+    "impact": 2
+}

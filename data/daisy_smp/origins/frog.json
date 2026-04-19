@@ -1,0 +1,12 @@
+{
+    "powers": [
+		"daisy_smp:size/1_block",
+        "origins:sprint_jump",
+		"origins:water_vision",
+		"origins:aqua_affinity",
+		"daisy_smp:frog/dried_up",
+		"daisy_smp:frog/lessfall"
+    ],
+    "icon": "minecraft:frog_spawn_egg",
+    "impact": 3
+}

@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "daisy_smp:size/1_5_block",
+        "daisy_smp:copper_golem/eat_copper",
+        "daisy_smp:copper_golem/magnet",
+        "daisy_smp_tweaks:likely_to_be_hit_by_lightning"
+    ],
+    "icon": "minecraft:copper_ingot",
+    "impact": 1
+}

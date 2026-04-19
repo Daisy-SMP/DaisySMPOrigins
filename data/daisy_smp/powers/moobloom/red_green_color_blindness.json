@@ -1,0 +1,18 @@
+{
+    "type": "origins:shader",
+    "shader": "daisy_smp_tweaks:red_green_cb",
+    "condition": {
+        "type": "daisy_smp_tweaks:equipped_trinket",
+        "trinket_slot": {
+            "group": "head",
+            "slot": "face"
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "daisy_smp_tweaks:color_blindness_correction_glasses"
+            }
+        },
+        "inverted": true
+    }
+}

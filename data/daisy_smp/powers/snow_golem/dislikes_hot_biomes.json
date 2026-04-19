@@ -1,0 +1,21 @@
+{
+    "type": "origins:damage_over_time",
+    "interval": 100,
+    "damage": 3,
+    "damage_type": "daisy_smp:overheat",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:biome",
+                "condition": {
+                    "type": "origins:precipitation",
+                    "precipitation": "none"
+                }
+            },
+            {
+                "type": "origins:exposed_to_sun"
+            }
+        ]
+    }
+}

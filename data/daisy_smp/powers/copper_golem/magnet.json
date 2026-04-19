@@ -1,0 +1,24 @@
+{
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+    "collection_attribute": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "more range mimic magnet daisy",
+            "attribute": "additionalentityattributes:collection_range",
+            "value": 3,
+            "operation": "addition"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    }
+}

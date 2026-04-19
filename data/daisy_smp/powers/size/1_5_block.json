@@ -1,0 +1,23 @@
+{
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "name": "less height daisy",
+            "attribute": "minecraft:scale",
+            "value": -0.25,
+            "operation": "multiply_total"
+        },
+        {
+            "name": "less block interaction range daisy",
+            "attribute": "minecraft:block_interaction_range",
+            "value": -0.067,
+            "operation": "multiply_total"
+        },
+        {
+            "name": "less entity interaction range daisy",
+            "attribute": "minecraft:entity_interaction_range",
+            "value": -0.067,
+            "operation": "multiply_total"
+        }
+    ]
+}
