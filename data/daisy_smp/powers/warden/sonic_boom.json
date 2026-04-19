@@ -1,0 +1,45 @@
+{
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "entity_action": {
+        "type": "origins:raycast",
+        "distance": 20,
+        "block": false,
+        "entity": true,
+        "command_along_ray": "particle minecraft:sonic_boom",
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:living"
+            }
+        },
+        "bientity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:actor_action",
+                    "action": {
+                        "type": "origins:play_sound",
+                        "sound": "minecraft:entity.warden.sonic_boom"
+                    }
+                },
+                {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:damage",
+                        "amount": 10,
+                        "damage_type": "minecraft:sonic_boom"
+                    }
+                }
+            ]
+        }
+    },
+    "cooldown": 100,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 18
+    }
+}

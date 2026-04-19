@@ -3,6 +3,8 @@
         "daisy_smp:size/3_block",
         "daisy_smp:health/4_more_hearts",
         "daisy_smp:warden/bad_sight",
+        "daisy_smp:warden/friendly_wardens",
+        "daisy_smp:warden/sonic_boom",
         "daisy_smp:warden/double_damage",
         "daisy_smp:warden/hungry",
         "daisy_smp:warden/no_elytra",

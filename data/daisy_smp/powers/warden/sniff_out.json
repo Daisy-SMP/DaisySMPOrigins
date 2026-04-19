@@ -1,5 +1,8 @@
 {
     "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.primary_active"
+    },
     "entity_action": {
         "type": "origins:area_of_effect",
         "radius": 49,
@@ -23,6 +26,20 @@
                     "action": {
                         "type": "origins:play_sound",
                         "sound": "minecraft:entity.warden.sniff"
+                    }
+                },
+                {
+                    "type": "origins:actor_action",
+                    "action": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "minecraft:speed",
+                            "duration": 600,
+                            "amplifier": 1,
+                            "is_ambient": true,
+                            "show_particles": false,
+                            "show_icon": true
+                        }
                     }
                 }
             ]
