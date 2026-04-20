@@ -3,7 +3,7 @@
     "behavior_type": "neutral",
     "bientity_condition": {
         "type": "origins:distance",
-        "comparison": "<=",
-        "compare_to": 6
+        "comparison": ">=",
+        "compare_to": 7
     }
 }
